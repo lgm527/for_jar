@@ -1,0 +1,15 @@
+#about {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-template-rows: repeat(1, 40%);
+  margin: 15px;
+}
+
+#bio {
+  text-align: left;
+  padding: 10px;
+}
+
+#pic {
+  font-size: 11px;
+}

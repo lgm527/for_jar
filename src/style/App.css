@@ -1,38 +1,32 @@
 .App {
   text-align: center;
+  align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Nav {
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 900;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(1, 50px);
+  background-image: url('../assets/winner.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Social {
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Social > span {
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-size: 80px;
+  font-weight: 500;
+  font-style: italic;
 }
