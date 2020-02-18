@@ -1,7 +1,7 @@
 #about {
-  display: grid;
-  grid-template-columns: repeat(2, 40%);
-  grid-template-rows: repeat(1, 40%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin: 15px;
 }
 
@@ -10,6 +10,6 @@
   padding: 10px;
 }
 
-#pic {
-  font-size: 11px;
+#jar {
+  border-radius: 5px;
 }

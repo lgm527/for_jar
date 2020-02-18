@@ -17,16 +17,24 @@
   background-repeat: no-repeat;
 }
 
-.Social {
-  font-size: 20px;
-}
-
-.Social > span {
-  padding: 10px;
-}
-
 h2 {
   font-size: 80px;
   font-weight: 500;
   font-style: italic;
+}
+
+h3, h6 {
+  margin: 0;
+}
+
+.Social {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.Social > span {
+  padding: 10px;
 }
