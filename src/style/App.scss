@@ -5,16 +5,23 @@
 
 .Nav {
   height: 100%;
+  cursor: pointer;
   font-size: 20px;
   text-align: center;
   font-weight: 900;
   display: grid;
+  box-sizing: border-box;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: repeat(1, 50px);
   background-image: url('../assets/winner.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+    h1:hover {
+    color: pink;
+    background-color: blue;
+    border-radius: 25px;
+  }
 }
 
 h2 {
